@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    min-height: 100%;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('imgs/Birthday-Sale_5_tanks_1920x1080.jpg__1048x590_q95_crop_subsampling-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-right{
+    display: flex;
+}
+.header-left{
+    display: flex;
+}
+header{
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    margin: auto;
+    width: 90%;
+    max-width: 1900px;
+
+}
+.hi{
+    color: white;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+}
+p{
+    font-size: 25px;
+}
+h3{
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+}
+#about_clan_modal{
+    position: fixed;
+    background-color: #222;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    overflow: scroll;
+
+}
+
+h4{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+img{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+.tank{
+    text-shadow: 0 0 10px solid white;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+table{
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    
+}
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+    
+  }
+td{
+    border: 2px solid white;
+    text-align: center;
+}
+@media(max-width:600px) {
+    img{
+        max-width: 100%;
+    }
+    h4{
+        margin-top: 20px;
+    }
+    
+}
