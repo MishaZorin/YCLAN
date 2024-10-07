@@ -94,8 +94,12 @@ table{
 }
 table, th, td {
     border: 1px solid rgb(255, 255, 255);
+    overflow: scroll;
     
   }
+.table_container{
+    overflow-x: scroll;
+}  
 td{
     border: 2px solid white;
     text-align: center;
@@ -105,7 +109,8 @@ td{
         max-width: 100%;
     }
     h4{
-        margin-top: 20px;
+        margin-top: 60px;
     }
+    
     
 }
